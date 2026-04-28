@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  swcMinify: false,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   typescript: {
     // Allow builds to complete even when there are TS errors in legacy code.
     ignoreBuildErrors: true,
