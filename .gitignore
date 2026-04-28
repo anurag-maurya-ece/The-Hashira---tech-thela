@@ -67,3 +67,6 @@ next-env.d.ts
 # Editor folders
 .vscode/
 .idea/
+
+
+.server_logs/
