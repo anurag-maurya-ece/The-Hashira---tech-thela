@@ -1,0 +1,14 @@
+{
+  "auth": {
+    "providers": {
+      "googleSignIn": {
+        "authorizedRedirectUris": [
+          "http://localhost:3000",
+          "https://techthela.ai"
+        ],
+        "oAuthBrandDisplayName": "Tech Thela AI",
+        "supportEmail": "anuragmaurya2145@gmail.com"
+      }
+    }
+  }
+}
